@@ -70,7 +70,7 @@ const NewsletterForm = ({ status, message, onValidated }) => {
             Subscribe to My Newsletter
         </h3>
         <div className="gap-4 mb-4 mc-field-group">
-            <p className='text-lg pb-5'>Receive inspiring articles and other exclusive content from myself. <br />You'll never receive any spam and can always unsubscribe. </p>
+            <p className='text-lg pb-5'>Receive inspiring articles and other exclusive content from myself. <br />You&apos;ll never receive any spam and can always unsubscribe. </p>
           <input
             onChange={(event) => setEmail(event?.target?.value ?? '')}
             type="email"

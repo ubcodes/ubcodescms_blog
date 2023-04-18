@@ -1,4 +1,4 @@
-import React, { useState, useEffect  } from 'react';
+import React from 'react';
 import { useRouter } from 'next/router';
 
 import Head from 'next/head';
@@ -7,18 +7,13 @@ import { getCategories, getCategoryPost } from '../../services';
 import { PostCard, Categories, Loader, Subscribe, Footer} from '../../components';
 
 const CategoryPost = ({ posts, category }) => {
-  const router = useRouter();
+   const router = useRouter();
 
   if (router.isFallback) {
     return <Loader />;
   }
 
-   const [categories, setCategories] = useState([]);
-
-  useEffect(() => {
-      getCategories()
-        .then((newCategories) => setCategories(newCategories) )
-  }, []);
+  
  
   return (
     <div>

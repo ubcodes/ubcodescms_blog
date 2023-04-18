@@ -8,14 +8,16 @@ const PostWidget = ({ categories, slug}) => {
   const [relatedPosts, setRelatedPosts] = useState([]);
 
   useEffect(() => {
-    if(slug) {
-      getSimilarPosts(categories, slug)
-        .then((result) =>  setRelatedPosts(result))
+    if (slug) {
+      getSimilarPosts(categories, slug).then((result) => {
+        setRelatedPosts(result);
+      });
     } else {
-      getRecentPosts()
-        .then((result) =>  setRelatedPosts(result))
+      getRecentPosts().then((result) => {
+        setRelatedPosts(result);
+      });
     }
-  }, [slug])
+  }, [slug]);
 
 
   return (
@@ -26,13 +28,15 @@ const PostWidget = ({ categories, slug}) => {
       {relatedPosts.map((post) => (
         <div key={post.tile} className='flex items-center w-full mb-4'>
           <div className='w-16 flex-none'>
-            <img 
+            <picture>
+              <img 
               alt={post.title}
               height="60px"
               width="60px"
               className='align-middle rounded-full'
               src={post.featuredImage.url} 
                />
+            </picture>
           </div>
           <div className='flex-grow ml-4 '>
           <p className='text-gray-500 font-xs'>
