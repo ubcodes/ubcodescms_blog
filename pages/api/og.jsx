@@ -24,7 +24,7 @@ export default async function handler() {
         }}
       >
         <picture>
-          <img width="256" height="256" src={imageData} />
+          <img tw='w-full h-full' src={imageData} />
         </picture>
       </div>
     ),

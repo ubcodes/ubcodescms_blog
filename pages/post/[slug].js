@@ -20,7 +20,7 @@ const PostDetails = ({ post }) => {
 
       <Head> 
         <title>{`${post.title}`} | Ubcodes</title>
-        <meta name="description" content="Articles on Web Development, Mental Health and Books" />
+        <meta name="description" content={`${post.excerpt}`} />
         <meta property="og:title" content={`${post.title} | Ubcodes`} />
         <meta property='og:type'content='article'/>
         <meta property='og:site_name' content='Ubcodes' />

@@ -2,7 +2,6 @@ import Head from "next/head"
 import { PostCard, Categories, PostWidget, Subscribe, Footer} from '../components';
 import { getPosts } from '../services'
 import { FeaturedPosts } from '../sections'
-import Logo from '../public/logo1.png'
 
 
 
@@ -14,7 +13,7 @@ export default function Home({ posts}) {
       <Head> 
         <title>Ubcodes | Blog</title>
         <meta name="description" content="Articles on Web Development, Books and Mental Health" />
-        <meta property="og:title" content="My Personal Blog" />
+        <meta property="og:title" content="Ubcodes | Blog" />
         <meta property="og:image" content="https://ubcodes-blog.vercel.app/api/og" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
