@@ -4,7 +4,7 @@ export const config = {
   runtime: 'edge',
 };
  
-const image = fetch(new URL('./logo1.png', import.meta.url)).then((res) =>
+const image = fetch(new URL('../../public/logo1.png', import.meta.url)).then((res) =>
   res.arrayBuffer(),
 );
  
@@ -23,7 +23,9 @@ export default async function handler() {
           alignItems: 'center',
         }}
       >
-        <img width="256" height="256" src={imageData} />
+        <picture>
+          <img width="256" height="256" src={imageData} />
+        </picture>
       </div>
     ),
     {

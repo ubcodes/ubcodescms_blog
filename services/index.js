@@ -39,25 +39,25 @@ export const getPosts = async () => {
 }
 
 export const getRecentPosts = async () => {
-    const query = gql `
-        query GetPostDetails() {
-            posts(
-                orderBy: createdAt_ASC 
-                last: 3
-                ){
-                    title
-                    featuredImage{
-                        url
-                    }
-                    createdAt
-                    slug
-                }
+  const query = gql`
+    query GetPostDetails() {
+      posts(
+        orderBy: createdAt_ASC
+        last: 3
+      ) {
+        title
+        featuredImage {
+          url
         }
-    `
-    const result = await request(graphqlAPI, query);
+        createdAt
+        slug
+      }
+    }
+  `;
+  const result = await request(graphqlAPI, query);
 
-    return result.posts;
-}
+  return result.posts;
+};
 
 export const getSimilarPosts = async (categories, slug) => {
   const query = gql`
@@ -81,19 +81,19 @@ export const getSimilarPosts = async (categories, slug) => {
 };
 
 export const getCategories = async () => {
-    const query = gql `
-        query GetCategories {
-            categories {
-                name
-                slug
-            }
+  const query = gql`
+    query GetGategories {
+        categories {
+          name
+          slug
         }
-    `
+    }
+  `;
 
-     const result = await request(graphqlAPI, query);
+  const result = await request(graphqlAPI, query);
 
-    return result.categories;
-}
+  return result.categories;
+};
 
 
 export const getPostDetails = async (slug) => {
