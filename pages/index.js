@@ -7,7 +7,7 @@ import Logo from '../public/logo1.png'
 
 
 
-export default function Home({ posts, author }) {
+export default function Home({ posts}) {
   return (
     <div>
  <div className="container mx-auto px-10 mb-8 ">
@@ -15,7 +15,7 @@ export default function Home({ posts, author }) {
         <title>Ubcodes | Blog</title>
         <meta name="description" content="Articles on web development, books and mental health" />
         <meta property="og:title" content="My personal blog" />
-        <meta property="og:image" content={author.photo.url} />
+        {/* <meta property="og:image" content= /> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FeaturedPosts />
