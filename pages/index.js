@@ -14,7 +14,7 @@ export default function Home({ posts}) {
       <Head> 
         <title>Ubcodes | Blog</title>
         <meta name="description" content="Articles on Web Development, Books and Mental Health" />
-        <meta property="og:title" content="My Personal blog" />
+        <meta property="og:title" content="My Personal Blog" />
         <meta property="og:image" content="https://ubcodes-blog.vercel.app/api/og" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
