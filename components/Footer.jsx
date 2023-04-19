@@ -58,12 +58,12 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className='bg-purple-300 p-4 text-center text-neutral-700  text-3xl dark:bg-purple-600 dark:text-neutral-200 '>
+        <div className=' p-4 text-center   text-3xl bg-purple-600 text-neutral-200 '>
         <a 
             className='text-white-800 dark:text-white-400 copy-right'
             href="https://ubcodes.com/"
         >
-            Made with ❤️, from <i className='hover:text-red-700'>Ubokabasi</i>
+            Developed with ❤️, by <i className='hover:text-red-700'>Ubokabasi</i>
         </a>
          <p className='text-xl'>© Etop - Essien Emmanuella Ubokabasi  </p> <p className='text-sm'>2023</p> 
         </div>

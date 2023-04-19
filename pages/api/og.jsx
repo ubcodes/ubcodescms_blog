@@ -24,7 +24,7 @@ export default async function handler() {
         }}
       >
         <picture>
-          <img  src={imageData} width="1200" height="630" />
+          <img  src={imageData} width="1100" height="630" />
         </picture>
       </div>
     ),
