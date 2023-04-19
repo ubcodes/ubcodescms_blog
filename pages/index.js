@@ -12,7 +12,7 @@ export default function Home({ posts }) {
     <div>
  <div className="container mx-auto px-10 mb-8 ">
       <Head> 
-        <title>Ubcodes|Blog</title>
+        <title>Ubcodes | Blog</title>
         <meta name="description" content="Articles on web development, books and mental health" />
         <meta property="og:title" content="My personal blog" />
         <meta property="og:title" content={Logo} />
