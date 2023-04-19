@@ -15,8 +15,7 @@ export default function Home({ posts }) {
         <title>Ubcodes | Blog</title>
         <meta name="description" content="Articles on web development, books and mental health" />
         <meta property="og:title" content="My personal blog" />
-        <meta property="og:title" content={Logo} />
-        <meta />
+        <meta property="og:image" content={Logo} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <FeaturedPosts />
