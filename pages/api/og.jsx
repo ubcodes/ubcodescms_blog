@@ -15,7 +15,7 @@ export default async function handler() {
       <div
         style={{
           display: 'flex',
-          background: '#f6f6f6',
+          background: '#000',
           width: '100%',
           height: '100%',
           flexDirection: 'column',
@@ -24,7 +24,7 @@ export default async function handler() {
         }}
       >
         <picture>
-          <img  src={imageData} width="1100" height="630" />
+          <img  alt='Ubcodes' src={imageData} width="900" height="630" />
         </picture>
       </div>
     ),
