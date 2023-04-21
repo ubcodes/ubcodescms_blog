@@ -16,21 +16,7 @@ const Categories = ({category}) => {
 
     <div>
 
-{/* 
-   <Head> 
-        <title>Ubcodes | Blog</title>
-        <meta name="description" content="Articles on web development, books and mental health" />
-        
-         {categories.map((category) => (
-        
 
-          <meta property="og:title" content={`Learn more about ${category.name}`} />
-
-      ))}
-
-      
-        <link rel="icon" href="/favicon.ico" />
-      </Head>   */}
 
       <div className='bg-white shadow-lg rounded-lg p-8 mb-8 pb-12'>
       <h3 className='text-xl mb-8 font-semibold border-b pb-4'>
