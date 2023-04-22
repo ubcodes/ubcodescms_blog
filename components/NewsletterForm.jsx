@@ -65,7 +65,7 @@ const NewsletterForm = ({ status, message, onValidated }) => {
 
   return (
     <>
-      <div className="bg-white shadow-lg rounded-lg p-8 mb-8 pb-12 d-flex newsletter-input-fields">
+      <div className="bg-white shadow-lg rounded-lg p-5 mb-8 pb-12 d-flex newsletter-input-fields">
         <h3 className='text-xl mb-5 font-semibold border-b pb-4'>
             Subscribe to My Newsletter
         </h3>

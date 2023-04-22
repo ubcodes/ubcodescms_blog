@@ -1,12 +1,13 @@
 import React from 'react'
 import { useRouter } from 'next/router'
-
 import { getPosts, getPostDetails } from '@/services'
 import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Subscribe, Footer, Loader} from '../../components'
 import { AdjacentPosts } from '@/sections'
-
 import Head from 'next/head'
 import moment from 'moment'
+
+// import { RichText } from '@graphcms/rich-text-react-renderer'
+
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
@@ -33,7 +34,7 @@ const PostDetails = ({ post }) => {
         <meta name='twitter:label2'  content='Etop - Essien Emmanuella Ubokabasi ' />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+       
         <div className='container mx-auto px-10 mb-8'>
         <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
           <div className='col-span-1 lg:col-span-8'>

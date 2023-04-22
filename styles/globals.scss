@@ -1,6 +1,38 @@
 @tailwind base;
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 15px;
+    background-color: var(--primary);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 14px;
+    border: 3px solid var(--primary);
+}
+
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --primary: purple;
+    --secondary: rgba(192, 181, 189, 0.52);
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
@@ -70,13 +102,14 @@ a {
     box-sizing: border-box;
 }
 
-.copy-right{
+.custom-font{
     font-family: 'Dancing Script', cursive;
 }
 .copy-right_name{
     // font-family: 'Montserrat', sans-serif;
     font-family: 'Belleza', sans-serif;
 }
+
 
 
 

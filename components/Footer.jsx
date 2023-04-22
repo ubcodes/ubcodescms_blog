@@ -60,8 +60,8 @@ const Footer = () => {
         {/* Copyright */}
         <div className=' p-4 text-center   text-3xl bg-purple-600 text-neutral-200 '>
         <a 
-            className='text-white-800 dark:text-white-400 copy-right'
-            href="https://ubcodes.com/"
+            className='text-white-800 dark:text-white-400 custom-font'
+            href="https://ubcodesblog.com/"
         >
             Developed with ❤️, by <i className='hover:text-red-700'>Ubokabasi</i>
         </a>
