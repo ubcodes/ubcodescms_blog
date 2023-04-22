@@ -78,8 +78,6 @@ const PostDetail = ({ post }) => {
             </span>
         </div>
         </div>
-
-        
         <React.Fragment>
 
       <h1 className='mb-8 text-3xl font-semibold'>{post.title}</h1>
