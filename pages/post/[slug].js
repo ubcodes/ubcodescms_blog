@@ -27,7 +27,7 @@ const PostDetails = ({ post }) => {
         <meta property='og:site_name' content='Ubcodes' />
         <meta property='og:image'content={`${post.featuredImage.url}`} />
         <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
+      <meta property="og:image:height" content="6" />
       
        {/*  <meta property='og:image:width' content='820' />
         <meta property='og:image:height' content='462' /> */}
@@ -39,12 +39,12 @@ const PostDetails = ({ post }) => {
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@ubcodes1_" />
-      <meta name="twitter:title" content="Ubcodes | Blog" />
+      <meta name="twitter:title" content={`${post.title} | Ubcodes`} />
       <meta name="twitter:description" content={`${post.excerpt}`} />
       {/* <meta name="twitter:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" /> */}
       <meta name="twitter:creator" content="Etop - Essien Emmanuella Ubokabasi" />  
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Ubcodes | Blog" />
+      <meta property="og:title" content={`${post.title} | Ubcodes`} />
       <meta property="og:description" content={`${post.excerpt}`} />
       <meta property="og:url" content={`https://www.ubcodesblog.com/post/${post.slug}`}/>
       
