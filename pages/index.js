@@ -28,7 +28,7 @@ export default function Home({ posts}) {
       <meta property="og:description" content="Welcome to my blog, where I share my insights and tips on web development, mental health and books. Whether you are a beginner or an expert, a reader or a writer, a coder or a therapist, you will find something useful and interesting here." />
       <meta property="og:site_name" content="Ubcodes | Blog" />
       <meta property="og:url" content="https://www.ubcodesblog.com/" />
-      <meta property="og:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" />
+      {/* <meta property="og:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" /> */}
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
 

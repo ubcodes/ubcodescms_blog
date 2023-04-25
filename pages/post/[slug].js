@@ -23,30 +23,32 @@ const PostDetails = ({ post }) => {
         <title>{`${post.title}`} | Ubcodes</title>
         {/* <meta name="description" content={`${post.excerpt}`} /> */}
         <meta property="og:title" content={`${post.title} | Ubcodes`} />
-        <meta property='og:type' content='website'/>
+        <meta property="og:description" content={`${post.excerpt}`} />
+        <meta property="og:type" content="website" />
         <meta property='og:site_name' content='Ubcodes' />
         <meta property='og:image'content={`${post.featuredImage.url}`} />
         <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="6" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:url" content={`https://www.ubcodesblog.com/post/${post.slug}`}/>
+        <meta property='og:article:published_time' content={moment(post.createdAt).format('MMM DD, YYYY')} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@ubcodes1_" />
+        <meta name="twitter:title" content={`${post.title} | Ubcodes`} />
+        <meta name="twitter:description" content={`${post.excerpt}`} />
+        <meta name="twitter:creator" content="Etop - Essien Emmanuella Ubokabasi" />  
+        
+
       
        {/*  <meta property='og:image:width' content='820' />
         <meta property='og:image:height' content='462' /> */}
-        <meta property='og:article:published_time' content={moment(post.createdAt).format('MMM DD, YYYY')} />
+        
         {/* <meta name='twitter:creator' content='@ubcodes1_' />
         <meta name='twitter:label1'  content='Written by' />
         <meta name='twitter:label2'  content='Etop - Essien Emmanuella Ubokabasi ' /> */}
 
 
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@ubcodes1_" />
-      <meta name="twitter:title" content={`${post.title} | Ubcodes`} />
-      <meta name="twitter:description" content={`${post.excerpt}`} />
+      
       {/* <meta name="twitter:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" /> */}
-      <meta name="twitter:creator" content="Etop - Essien Emmanuella Ubokabasi" />  
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content={`${post.title} | Ubcodes`} />
-      <meta property="og:description" content={`${post.excerpt}`} />
-      <meta property="og:url" content={`https://www.ubcodesblog.com/post/${post.slug}`}/>
       
 
 
