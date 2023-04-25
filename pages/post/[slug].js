@@ -41,7 +41,7 @@ const PostDetails = ({ post }) => {
       <meta name="twitter:site" content="@ubcodes1_" />
       <meta name="twitter:title" content="Ubcodes | Blog" />
       <meta name="twitter:description" content={`${post.excerpt}`} />
-      <meta name="twitter:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" />
+      {/* <meta name="twitter:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" /> */}
       <meta name="twitter:creator" content="Etop - Essien Emmanuella Ubokabasi" />  
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Ubcodes | Blog" />
