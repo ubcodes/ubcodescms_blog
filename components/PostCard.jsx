@@ -9,14 +9,14 @@ const PostCard = ({ post }) => {
       <div className='relative overflow-hidden shadow-md pb-80 mb-6'>
         <picture>
           <img
-            unoptimized
+            // unoptimized
             src={post.featuredImage.url}
             alt={post.title} 
             className='object-top absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rounded-lg'
          />
         </picture>
       </div>
-      <h1 className='transition duration-700 text-center mb-8 cursor-pointer hover:text-purple-600 text-3xl font-semibold'>
+      <h1 className='transition duration-700 text-center mb-8 cursor-pointer hover:text-purple-600 text-3xl font-semibold px-2'>
         <Link href={`/post/${post.slug}`}>
              {post.title}
         </Link>
@@ -43,10 +43,10 @@ const PostCard = ({ post }) => {
             </span>
         </div>
       </div>
-      <p  className='text-center text-lg text-gray-700 font-normal px-4 lg:px-2 mb-8'>{post.excerpt}</p>
+      <p  className='text-center text-lg text-gray-700 font-normal px-4  lg:px-2 mb-8'>{post.excerpt}</p>
       <div className='text-center'>
         <Link href={`/post/${post.slug}`}>
-            <span className='transition duration-500 transform hover:-translate-y-1 inline-block bg-purple-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer' >
+            <span className='transition duration-500 transform hover:-translate-y-1 inline-block bg-purple-600 text-lg font-medium rounded-full text-white px-3 py-2 lg:px-8 lg:py-3 cursor-pointer ' >
                 Continue Reading
             </span>
         </Link>
