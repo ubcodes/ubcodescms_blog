@@ -13,8 +13,8 @@ export default function Home({ posts}) {
       <Head> 
         <title>Ubcodes | Blog</title>
         {/* <meta name="description" content="Articles on Web Development, Books and Mental Health" />
-        <meta property="og:title" content="Ubcodes | Blog" />
-        <meta property="og:image" content="https://ubcodes-blog.vercel.app/api/og" /> */}
+        <meta property="og:title" content="Ubcodes | Blog" />  */}
+        <meta property="og:image" content="https://ubcodes-blog.vercel.app/api/og" />
 
 
       <meta name="twitter:card" content="summary_large_image" />
@@ -30,7 +30,7 @@ export default function Home({ posts}) {
       <meta property="og:url" content="https://www.ubcodesblog.com/" />
       <meta property="og:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" />
       <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="628" />
+      <meta property="og:image:height" content="630" />
 
 
         <link rel="icon" href="/favicon.ico" />

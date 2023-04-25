@@ -27,7 +27,7 @@ const PostDetails = ({ post }) => {
         <meta property='og:site_name' content='Ubcodes' />
         <meta property='og:image'content={`${post.featuredImage.url}`} />
         <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="6" />
+      <meta property="og:image:height" content="630" />
       
        {/*  <meta property='og:image:width' content='820' />
         <meta property='og:image:height' content='462' /> */}
