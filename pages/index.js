@@ -11,8 +11,7 @@ export default function Home({ posts}) {
  <div className="container mx-auto px-10 mb-8 ">
       <Head> 
         <title>Ubcodes | Blog</title>
-        {/* <meta name="description" content="Articles on Web Development, Books and Mental Health" />
-        <meta property="og:title" content="Ubcodes | Blog" />  */}
+     
         <meta property="og:image" content="https://ubcodes-blog.vercel.app/api/og" />
 
 
