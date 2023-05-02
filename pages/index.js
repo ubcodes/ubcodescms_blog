@@ -5,7 +5,6 @@ import { FeaturedPosts } from '../sections'
 
 
 
-
 export default function Home({ posts}) {
   return (
     <div>
