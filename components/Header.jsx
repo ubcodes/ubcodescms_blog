@@ -26,14 +26,17 @@ const Header = () => {
         </Link>
       </div>
       <div className=' md:float-left md:contents'>
+        <a href="https://emmanuellaubokabasi-portfolio.netlify.app/" target='_blank' ><span className='md:float-right  mt-10 mb-0 align-middle text-white ml-2 md:ml-4 lg:ml-4 font-semibold cursor-pointer text-xl hover:text-purple-600 transform hover:-translate-y-1 transition duration-500'>Portfolio</span></a>
         {categories.map((category) => (
             <Link key={category.slug} href={`/category/${category.slug}`} >
                 <span className='md:float-right  mt-10 mb-0 align-middle text-white ml-2 md:ml-4 lg:ml-4 font-semibold cursor-pointer text-xl hover:text-purple-600 transform hover:-translate-y-1 transition duration-500'>
-                    {category.name}
+                    {category.name} 
                 </span>
             </Link>
         ))}
+        
       </div>
+      
       </div>
     </div>
   )

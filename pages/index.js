@@ -12,14 +12,14 @@ export default function Home({ posts}) {
       <Head> 
         <title>Ubcodes | Blog</title>
      
-        <meta property="og:image" content="https://ubcodes-blog.vercel.app/api/og" />
+        <meta property="og:image" content="https://pbs.twimg.com/media/Fx4HQ-_X0AMfOL3?format=jpg&name=900x900" />
 
-
+      <meta name="keywords" content="HTML,CSS, JavaScript, Mental Health, React, Books" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@ubcodes1_" />
       <meta name="twitter:title" content="Ubcodes | Blog" />
       <meta name="twitter:description" content="Welcome to my blog, where I share my insights and tips on web development, mental health and books. Whether you are a beginner or an expert, a reader or a writer, a coder or a therapist, you will find something useful and interesting here." />
-      <meta name="twitter:image" content="https://pbs.twimg.com/profile_banners/1565758457642467328/1681520629/1500x500le.jpg" />
+      <meta name="twitter:image" content="https://pbs.twimg.com/media/Fx4HQ-_X0AMfOL3?format=jpg&name=900x900" />
 
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Ubcodes | Blog" />
