@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 import { decode } from 'html-entities'
 
+export const revalidate = 60;
+
 
 
 const NewsletterForm = ({ status, message, onValidated }) => {

@@ -3,6 +3,8 @@ import { PostCard, Categories, PostWidget, Subscribe, Footer} from '../component
 import { getPosts } from '../services'
 import { FeaturedPosts } from '../sections'
 
+export const revalidate = 60;
+
 
 
 export default function Home({ posts}) {

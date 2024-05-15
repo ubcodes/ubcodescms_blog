@@ -4,6 +4,9 @@ import Image from 'next/image'
 import logo from '../public/logo.png'
 import { getCategories } from '@/services'
 
+export const revalidate = 60;
+
+
 const Header = () => {
    const [categories, setCategories] = useState([]);
 

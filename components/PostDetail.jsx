@@ -3,6 +3,9 @@ import moment from 'moment';
 import Image from 'next/image';
 import { RichText } from '@graphcms/rich-text-react-renderer'
 
+export const revalidate = 60;
+
+
 
 const PostDetail = ({ post }) => {
    const getContentFragment = (index, text, obj, type) => {

@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+export const revalidate = 60;
+
+
 import { FeaturedPostCard } from '../components';
 import { getFeaturedPosts } from '../services';
 

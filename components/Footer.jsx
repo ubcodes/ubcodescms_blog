@@ -2,6 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import logo from '../public/logo.png'
 
+export const revalidate = 60;
+
+
 const Footer = () => {
   return (
     <footer className='bg-white-200 text-center mx-auto text-white dark:bg-purple-100 w-full'>

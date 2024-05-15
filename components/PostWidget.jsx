@@ -4,6 +4,9 @@ import Link from 'next/link'
 
 import { getRecentPosts, getSimilarPosts } from '@/services'
 
+export const revalidate = 60;
+
+
 const PostWidget = ({ categories, slug}) => {
   const [relatedPosts, setRelatedPosts] = useState([]);
 

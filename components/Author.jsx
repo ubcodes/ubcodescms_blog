@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+export const revalidate = 60;
+
+
 
 const Author = ({ author }) => {
   return (

@@ -2,6 +2,9 @@ import React from 'react'
 import moment from 'moment'
 import Link from 'next/link'
 
+export const revalidate = 60;
+
+
 const AdjacentPostCard = ({post, position}) => {
   return (
     <>

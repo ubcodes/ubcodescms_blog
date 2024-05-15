@@ -5,6 +5,8 @@ import parse from 'html-react-parser'
 import { getComments } from '@/services';
 import { comment } from 'postcss';
 
+export const revalidate = 60;
+
 
 const Comments = ({ slug }) => {
   const [comments, setComments] = useState([])

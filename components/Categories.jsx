@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { getCategories } from '@/services'
 
+export const revalidate = 60;
+
+
 const Categories = ({category}) => {
   const [categories, setCategories] = useState([]);
 

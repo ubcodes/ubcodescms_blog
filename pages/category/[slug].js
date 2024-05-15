@@ -1,6 +1,9 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
+export const revalidate = 60;
+
+
 
 import { getCategories, getCategoryPost } from '../../services';
 import { PostCard, Categories, Loader, Subscribe, Footer} from '../../components';

@@ -3,6 +3,9 @@ import moment from 'moment/moment'
 import Link from 'next/link'
 // import Image from 'next/image'
 
+export const revalidate = 60;
+
+
 const PostCard = ({ post }) => {
   return (
     <div className='bg-white shadow-lg rounded-lg p-0 lg:p-5 pb-12 mb-8'>

@@ -3,6 +3,9 @@ import { NewsletterForm } from ".";
 
 import React from 'react'
 
+export const revalidate = 60;
+
+
 const Subscribe = () => {
 
   const MAILCHIMP_URL = process.env.NEXT_PUBLIC_MAILCHIMP_URL;
